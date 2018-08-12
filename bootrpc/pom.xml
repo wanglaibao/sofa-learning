@@ -11,7 +11,17 @@
 
     <groupId>com.laibao</groupId>
     <artifactId>bootrpc</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>bootrpcprovider</module>
+    </modules>
+
+    <parent>
+        <groupId>com.alipay.sofa</groupId>
+        <artifactId>sofaboot-dependencies</artifactId>
+        <version>${sofa.boot.version}</version>
+    </parent>
 
 
 </project>
