@@ -4,6 +4,9 @@
     <groupId>com.laibao</groupId>
     <artifactId>sofa-learning</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>simplerpc</module>
+    </modules>
     <packaging>pom</packaging>
 
     <name>sofa-learning</name>
@@ -11,6 +14,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
+        <sofa.rpc.version>5.4.3</sofa.rpc.version>
     </properties>
 
 
