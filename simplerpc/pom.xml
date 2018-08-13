@@ -17,13 +17,4 @@
         <module>rpcconsumer</module>
     </modules>
     <packaging>pom</packaging>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>sofa-rpc-all</artifactId>
-            <version>${sofa.rpc.version}</version>
-        </dependency>
-    </dependencies>
-
 </project>

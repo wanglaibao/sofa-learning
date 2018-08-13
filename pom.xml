@@ -6,7 +6,6 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>simplerpc</module>
-        <module>bootrpc</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -16,9 +15,16 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <sofa.rpc.version>5.4.3</sofa.rpc.version>
-        <sofa.boot.version>2.4.4</sofa.boot.version>
     </properties>
 
+
+    <dependencies>
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>sofa-rpc-all</artifactId>
+            <version>${sofa.rpc.version}</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
